@@ -13,6 +13,8 @@ builds:
       - linux
       - windows
       - darwin
+    main: ./cmd/cli/main.go
+    binary: test_cli_binary_name
 archives:
   - replacements:
       darwin: Darwin
